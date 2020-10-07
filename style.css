@@ -48,9 +48,11 @@ links in the navigation are in the hover or focus state.*/
   padding: 6px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
-  z-index: auto;
-  padding-top: 40px;
+  z-index: -1;
   position: relative;
+  top: 40px; 
+  
+  /*we need to get a position , zindex, and something on top */
   
 }
 *:focus{
@@ -165,6 +167,7 @@ header p{
   margin-right: auto;
   margin-left: auto;
   vertical-align: middle;
+  align-self: center;
   
   
   /*Your code here:*/
@@ -178,7 +181,7 @@ header p{
     text-align: right;
     vertical-align: middle;
     align-self: center;
-    /*Your code here:*/
+    /*we need to find right place to use align-self*/
   }
 
   .container{

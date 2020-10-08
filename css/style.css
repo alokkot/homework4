@@ -48,9 +48,12 @@ links in the navigation are in the hover or focus state.*/
   padding: 6px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
-  z-index: -1;
-  position: relative;
-  top: 40px; 
+  z-index: 1;
+  position: absolute;
+  top: -40px; 
+}
+.skip a:focus{
+  top:0px
   
   /*we need to get a position , zindex, and something on top */
   
